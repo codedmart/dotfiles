@@ -1,0 +1,15 @@
+Host zm1
+    HostName 74.207.244.251
+    User bmartin
+    Port 30000
+
+Host uberhost
+    HostName 72.232.223.147
+    User zyphmart
+    Port 1800
+
+Host freenas
+    HostName cu3edweb.homelinux.net
+    User bmartin
+    Port 22
+
