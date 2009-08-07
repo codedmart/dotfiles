@@ -70,6 +70,8 @@ alias authlogic='./script/plugin install git://github.com/binarylogic/authlogic.
 
 # git aliases
 alias gi='git init'
+alias ga='git add'
+alias gaa='git add .' # git add --all
 alias ungit="find . -name '.git' -exec rm -rf {} \;"
 alias gb='git branch'
 alias gba='git branch -a'
@@ -85,6 +87,9 @@ alias gdm='git diff master'
 alias gl='git pull'
 alias gnp="git-notpushed"
 alias gp='git push'
+function gpo() {
+   git push origin $*
+}
 alias gst='git status'
 alias gt='git status'
 alias g='git status'
