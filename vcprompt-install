@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Download, compile, and copy the vcprompt command to ~/bin.
+# Download, compile, and copy the vcprompt command to ~/.bin.
 #
 # AUTHOR: Geoffrey Grosenbach
 #         July 27 2009
