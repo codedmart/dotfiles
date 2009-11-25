@@ -7,5 +7,5 @@ export BROWSER="links '%s' &"
 export PATH=$PATH:/home/bmartin/.gem/ruby/1.8/bin:~/.bin
 
 # define editor
-export EDITOR="gedit"
+export EDITOR="nano"
 

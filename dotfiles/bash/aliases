@@ -17,6 +17,7 @@ alias sz='. ~/.zshrc' # source zshrc file
 alias sb='. ~/.bashrc' # source bachrc file
 alias ea='gedit ~/.bin/dotfiles/bash/aliases && reload' # Edit aliases
 alias ee="gedit ~/.bin/dotfiles/bash/env"
+alias gdmsetup='gksudo -u gdm dbus-launch gnome-appearance-properties'
 
 # file aliases
 alias ls='ls --color=auto -F'             # colourized list
@@ -67,6 +68,7 @@ alias nifty_generators='./script/plugin install git://github.com/ryanb/nifty-gen
 alias nifty_layout='./script/generate nifty_layout'
 alias railsfck='./script/plugin install git://github.com/gramos/easy-fckeditor.git'
 alias authlogic='./script/plugin install git://github.com/binarylogic/authlogic.git'
+alias less='./script/plugin install git://github.com/cloudhead/more.git'
 
 # git aliases
 alias gi='git init'
